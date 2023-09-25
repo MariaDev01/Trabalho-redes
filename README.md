@@ -77,7 +77,7 @@ https://app.vagrantup.com/boxes/search?utf8=%E2%9C%93&sort=downloads&provider=&q
 
 - Executando comandos shell dentro da máquina virtual durante o provisionamento. Os comandos dentro do bloco configuram algumas configurações de rede e exportam variáveis de ambiente.
 
-Este código é usado para configurar uma máquina virtual chamada "server3" com interfaces de rede privada e pública, bem como realizar algumas configurações de rede adicionais dentro da máquina virtual. Certifique-se de que a configuração do seu ambiente Vagrant seja compatível com essas configurações.
+  -> Este código é usado para configurar uma máquina virtual chamada "server3" com interfaces de rede privada e pública, bem como realizar algumas configurações de rede adicionais dentro da máquina virtual. Certifique-se de que a configuração do seu ambiente Vagrant seja compatível com essas configurações.
 
        server3.vm.provision "shell", inline: <<-SHELL
          export DEBIAN_FRONTEND=noninteractive
